@@ -1,0 +1,57 @@
+# Q2: Student Entry Verification
+
+## 1. Algorithm
+
+1. Start
+2. Input Student_ID
+3. Input Registered_List
+4. Search for Student_ID in Registered_List
+5. If Student_ID exists in the list, allow the student to enter.
+6. Otherwise, deny entry.
+7. End
+
+## 2. Input
+
+- Student_ID
+- Registered_List
+
+## 3. Output
+
+- Allowed to Enter
+- Not Allowed to Enter
+
+## 4. Conditions and Decisions
+
+- If Student_ID exists in Registered_List, allow entry.
+- If Student_ID does not exist in Registered_List, deny entry.
+
+## 5. Pseudocode
+
+Start
+
+Input Student_ID
+Input Registered_List
+
+If Student_ID is in Registered_List Then
+    Print "Allowed to Enter"
+Else
+    Print "Not Allowed to Enter"
+End If
+
+End
+
+## 6. Test Cases
+
+Test Case 1:
+
+Registered_List = 101, 102, 103
+Student_ID = 102
+
+Output: Allowed to Enter
+
+Test Case 2:
+
+Registered_List = 101, 102, 103
+Student_ID = 105
+
+Output: Not Allowed to Enter
