@@ -1,0 +1,7 @@
+ Q1:
+Input Grade
+If Grade >= 50 Then
+    Print "Pass"
+Else
+    Print "Fail"
+End If
